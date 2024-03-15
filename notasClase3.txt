@@ -1,0 +1,8 @@
+Sugar sintax, es una especie de atajo de estructuras mas complejas
+Ecma script, actualiza js para simplificar el codigo y sea todo mas entendible, consideraciones q se agregan al lenguaje, para q sea mas optimo
+
+siempre en nuestros componente tenemos q retornar algo, en el return
+todo componente de retornar solamente un elemento, osea x ejemplo un solo div q contenga todo
+tambien se puede poner un fragment con la siguiente etiqueta: <></>
+
+transpilación, agarra el lenguaje q le damos y lo convierte al lenguaje q entiende el navegador

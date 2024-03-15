@@ -1,0 +1,39 @@
+un componente es una porción de codigo que cumple una funcion especifica
+react es declarativo
+las funciones son valores
+el dom se encarga de insertar html a traves de js
+cada vez q insertamos un document, trae demoras, ya que lanzamos una actualizacion, es costoso desde el punto de vista
+de optimización
+virtual dom
+para mejorar esto, surgió el virtual dom, es una copia ligera del dom q es mas rapida para actualizar, no esta
+asociado a la interfaz del usuario
+react fiber
+divid eel trabajo en pequeñas tareas, utilizando el virtual para operaciones rapidas, des esta forma se mejorar
+el rendimiento final del usuario calcula dentro del virtual dom y las analiza para hacer la menor cantidad de 
+mocimientos posibles
+reconciliación
+aplica los cambio minimos y necesarios en el dom real, para mejorar el rendimiento
+
+diffing, cuando se compara el dom real con el virtual
+node js es un entorno de ejecucion en nuestra pc
+
+npm repositorio de open source de js, tambien para ejecutar comandos
+npx create-react-app . con este comando creo mi app de react en la carpeta q este parado, esta forma no es la
+recomendable para instalar, xq es lenta e instala cosas q no son "necesarias", si tenes una maquina medio lenta
+es muchisimo mas lento, no importa si tenes un solido, de todas formas es lento
+npm start para correr el projecto
+
+este comando para el vite
+npm create vite@latest .
+despues el npm install
+para correrlo escribimos
+npm run dev
+para terminar la app, en la terminal hay q usar ctrl + c
+cada vez q se cree un proyecto en nuevo otra carpeta, hay q hacer esto
+
+todo lo q tengo en la funcion app es lo q se va a renderizar en pantalla
+las etiquetas q tenemos en en la app, no es html es jsx, es una xml junto con js
+en jsx hay q cerrar todas las etiquetas, por ejemplo para usar img. tendría q poner <img /> y ahí dentro poner
+lo q necesito
+en react los componentes siempre se escriben con la primer letra mayuscula, sino, te puede tirar error
+todos los componentes, son extension .jsx los componentes son funciones

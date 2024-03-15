@@ -1,0 +1,8 @@
+un componentes es un fragmento de codigo reutilizable, que combina tanto la logica como la interfaz de usuario en una sola función
+recordar q la primer letra tiene q ser mayuscula para q react lo reconozca como tal
+la logica se declara antes del return dentro de el, lo q se renderiza
+se recomienda usar className en de id, para nombrar los componentes
+si tenemos componentes hijos de un padre, nos conviene ponerlo dentro de la misma carpeta
+diseño modular: creamos pequeños componentesy despues los vamos encajando para crear nuestra app, con el diseño modular lo creamos una vez y despues lo invocamos las veces q necesitamos
+al <></> (fragment) no se le puede dar estilos
+a una variable de estado, no la podemos modificar directamente

@@ -1,0 +1,6 @@
+type module, hay q tenerlo en cuenta si hacemos modular nuestro codigo
+o sea, si ejecuto mi js en archivos distintos
+export default, se usa para mandar una sola funcion aca no se usa formato objeto
+expor nombrado, se usa cuando exportamos mas de una funcion
+y en este caso se recibe como objeto {valor1, valor2, etc...}
+
